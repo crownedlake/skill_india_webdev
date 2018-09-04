@@ -1,0 +1,42 @@
+::-moz-selection {
+background:#e06d5e;
+}
+::selection {
+background:#e06d5e;
+}
+
+.navbar .brand a:hover {
+	color:#1BAC91;
+}
+
+
+
+ul#menu-main > li > a:hover {
+	color: #1BAC91;
+}
+
+
+ul#menu-main > li > a:focus,ul#menu-main > li > a:active, ul#menu-main > li > a.selected, ul#menu-main li a.selected:active    {
+	color: #1BAC91;
+}
+#header-wrapper h1 span {
+	color:#1BAC91;
+}
+
+#header-wrapper input[type=submit] {
+	background: #1BAC91 !important;
+}
+
+#theme-form input[type=submit] {
+	background: #1BAC91 !important;
+}
+
+.btn.btn-theme {
+	background: #26c8aa !important;
+}
+.tabbable ul.nav-tabs li.active a,.tabbable ul.nav-tabs li a:hover {
+	color: #1BAC91;
+}
+.accordion .accordion-heading a.active {
+	color: #1BAC91;
+}

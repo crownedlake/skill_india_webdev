@@ -1,0 +1,151 @@
+.containerloader {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+    background-size:cover;
+  position: absolute;
+}
+
+.item-1 {
+  background-color: #FA5667;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  animation: item-1_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+}
+#rest{
+    display: none;
+}
+
+.item-2 {
+  background-color: #7A45E5;
+  top: 0;
+  right: 0;
+  animation: item-2_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+}
+
+.item-3 {
+  background-color: #1B91F7;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  animation: item-3_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+}
+
+.item-4 {
+  background-color: #FAC24C;
+  bottom: 0;
+  left: 0;
+  animation: item-4_move 1.8s cubic-bezier(.6,.01,.4,1) infinite;
+}
+
+@keyframes item-1_move {
+  0%, 100% {transform: translate(0, 0)} 
+  25% {transform: translate(0, 100px)} 
+  50% {transform: translate(100px, 100px)} 
+  75% {transform: translate(100px, 0)} 
+}
+
+@keyframes item-2_move {
+  0%, 100% {transform: translate(0, 0)} 
+  25% {transform: translate(-100px, 0)} 
+  50% {transform: translate(-100px, 100px)} 
+  75% {transform: translate(0, 100px)} 
+}
+
+@keyframes item-3_move {
+  0%, 100% {transform: translate(0, 0)} 
+  25% {transform: translate(0, -100px)} 
+  50% {transform: translate(-100px, -100px)} 
+  75% {transform: translate(-100px, 0)} 
+}
+
+@keyframes item-4_move {
+  0%, 100% {transform: translate(0, 0)} 
+  25% {transform: translate(100px, 0)} 
+  50% {transform: translate(100px, -100px)} 
+  75% {transform: translate(0, -100px)} 
+}
+
+
+.navbar-expand-lg{
+	background-color: #000;
+}
+.navbar .navbar-brand{
+	color: #fff;
+}
+footer{
+    
+    background-color: #000;
+}
+footer *{
+    color: #fff;
+}
+footer i{
+  padding: 5px;
+  font-size: 30px;
+    left:0;
+  color: #fff;
+}
+.navbar .nav-item {
+  color: #fff;
+  padding: 0;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 15px;
+}
+
+
+.card {
+    min-height: 20vh;
+    margin:10px;
+    color: #666666;
+}
+#seeanddo .card .btn{
+    width: 20%;
+    opacity: 0.5;
+    background-color: #000;
+    
+}
+#seeanddo .card-img-top {
+    width: 100%;
+    height: 35vh;
+    object-fit:cover;
+}
+
+#seeanddo{
+    background-color: #f0f0f0;
+    padding:1%;
+}
+#menu img{
+    object-fit: cover;
+    height: 70vh;
+    width: 100%;
+}
+#package{
+    padding: 5%;
+    background-color:aliceblue;
+}
+
+#package .card-img-top {
+    width: 100%;
+    height: 45vh;
+    object-fit:contain;
+}
+
+@media only screen and (max-width:700px){
+    .navbar form{
+        display: none;
+    }
+    .card
+}
